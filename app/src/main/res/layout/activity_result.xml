@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/result_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="72dp"
+        android:gravity="center_horizontal"
+        android:text="Your Results"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correct_txt"
+        android:layout_width="281dp"
+        android:layout_height="35dp"
+        android:layout_x="65dp"
+        android:layout_y="176dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/wrong_txt"
+        android:layout_width="283dp"
+        android:layout_height="37dp"
+        android:layout_x="64dp"
+        android:layout_y="239dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/final_score"
+        android:layout_width="278dp"
+        android:layout_height="35dp"
+        android:layout_x="68dp"
+        android:layout_y="302dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/exit_result"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="378dp"
+        android:background="@color/colorPrimary"
+        android:text="Exit"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="482dp"
+        android:text="Do you want to add questions?"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="528dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Add Quiz"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</AbsoluteLayout>

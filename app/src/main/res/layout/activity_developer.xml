@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity">
+
+    <TextView
+        android:id="@+id/developer_txt"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_x="131dp"
+        android:layout_y="60dp"
+        android:text="Developer"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dback_btn"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="346dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Back"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="271dp"
+        android:layout_height="32dp"
+        android:layout_x="104dp"
+        android:layout_y="180dp"
+        android:text="Mahima Laxmi Shakya"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="218dp"
+        android:text="np01cp4a180182@islingtoncollege,edu.np" />
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_x="26dp"
+        android:layout_y="176dp"
+        android:background="@drawable/m" />
+</AbsoluteLayout>
